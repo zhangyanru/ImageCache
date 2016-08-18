@@ -10,7 +10,7 @@ import com.android.volley.toolbox.Volley;
  *
  * Volley需要我们声明一个RequesQueuetManager来维持请求队列，因此，我们首先定义RequesQueuetManager类来管理
  */
-public class RequesQueuetManager {
+public class RequestQueueManager {
     public static RequestQueue mRequestQueue = Volley.newRequestQueue(MyApplication.getContext());
     public static void addRequest(Request<?> request, Object object){
         if (object != null){

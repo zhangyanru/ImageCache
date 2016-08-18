@@ -1,7 +1,5 @@
 package com.example.yanruzhang.imagecache;
 
-import android.graphics.Bitmap;
-
 import com.android.volley.toolbox.ImageLoader;
 
 /**
@@ -16,7 +14,7 @@ public class ImageCacheManager {
 
     private static ImageCacheUtil mImagetCache = new ImageCacheUtil();
 
-    public static ImageLoader mImageLoader = new ImageLoader(RequesQueuetManager.mRequestQueue,mImagetCache);
+    public static ImageLoader mImageLoader = new ImageLoader(RequestQueueManager.mRequestQueue,mImagetCache);
 
     public static void loadImage(String url,ImageLoader.ImageListener imageListener){
         mImageLoader.get(url,imageListener,0,0);
