@@ -1,20 +1,20 @@
 package com.example.yanruzhang.imagecache.loadLargeImage;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 import com.example.yanruzhang.imagecache.R;
+
+import java.io.InputStream;
 
 /**
  * Created by yanru.zhang on 16/8/19.
  * Email:yanru.zhang@renren-inc.com
  */
 public class LoadLargeImageActivity extends AppCompatActivity implements View.OnClickListener{
-    private ImageView imageView;
+    private LargeImageView largeImageView;
     private Button button;
 
     @Override
@@ -23,7 +23,7 @@ public class LoadLargeImageActivity extends AppCompatActivity implements View.On
 
         setContentView(R.layout.activity_large_image);
         setTitle("加载大图");
-        imageView = (ImageView) findViewById(R.id.iv);
+        largeImageView = (LargeImageView) findViewById(R.id.large_iv);
         button = (Button) findViewById(R.id.btn);
 
         button.setOnClickListener(this);
@@ -33,7 +33,7 @@ public class LoadLargeImageActivity extends AppCompatActivity implements View.On
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.btn:
-                imageView.setImageResource(R.drawable.qing_ming_shang_he_tu);
+                largeImageView.setRes(R.drawable.qing_ming_shang_he_tu);
                 break;
         }
     }

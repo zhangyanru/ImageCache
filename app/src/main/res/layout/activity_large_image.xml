@@ -7,12 +7,10 @@
         android:layout_height="50dp"
         android:layout_margin="5dp"
         android:text="设置大图"/>
-    <ScrollView android:layout_below="@+id/btn"
+    <com.example.yanruzhang.imagecache.loadLargeImage.LargeImageView
+        android:id="@+id/large_iv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <ImageView android:id="@+id/iv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </ScrollView>
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btn"/>
 
 </RelativeLayout>
