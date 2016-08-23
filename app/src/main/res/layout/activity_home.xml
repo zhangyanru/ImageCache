@@ -14,4 +14,10 @@
         android:layout_margin="5dp"
         android:text="加载大图"/>
 
+    <Button android:id="@+id/handler_thread"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:text="HandlerThread"/>
+
 </LinearLayout>

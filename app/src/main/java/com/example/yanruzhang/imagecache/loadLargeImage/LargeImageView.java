@@ -19,7 +19,9 @@ import java.io.InputStream;
  * Created by yanru.zhang on 16/8/19.
  * Email:yanru.zhang@renren-inc.com
  *
+ * 参考
  * http://blog.csdn.net/lmj623565791/article/details/49300989
+ * https://github.com/LuckyJayce/LargeImage
  */
 public class LargeImageView extends View{
 

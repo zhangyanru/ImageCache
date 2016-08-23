@@ -21,6 +21,7 @@
 
         <activity android:name=".cache.MainActivity"/>
         <activity android:name=".loadLargeImage.LoadLargeImageActivity"/>
+        <activity android:name=".handlerThread.HandlerThreadActivity"/>
     </application>
 
 </manifest>
