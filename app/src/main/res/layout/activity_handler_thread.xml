@@ -12,4 +12,16 @@
         android:textSize="20dp"
         tools:text="1"
         android:textColor="#ff0000"/>
+
+    <com.example.yanruzhang.imagecache.ParentLy
+        android:layout_width="200dp"
+        android:layout_height="200dp">
+        <com.example.yanruzhang.imagecache.ParentLyB
+            android:layout_width="200dp"
+            android:layout_height="200dp">
+            <com.example.yanruzhang.imagecache.ChildV
+                android:layout_width="200dp"
+                android:layout_height="200dp"/>
+        </com.example.yanruzhang.imagecache.ParentLyB>
+    </com.example.yanruzhang.imagecache.ParentLy>
 </LinearLayout>

@@ -42,7 +42,7 @@ public class HandlerThreadActivity extends Activity {
                 switch (msg.what){
                     case GET_DATA:
                         //子线程做的事情
-                        Log.d("zyr",Thread.currentThread().getName());
+//                        Log.d("zyr",Thread.currentThread().getName());
                         try {
                             int i = random.nextInt();
                             //得到结果给主线程更新ui
